@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component
+# Frontend Mentor - Product preview card component TODO!
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 

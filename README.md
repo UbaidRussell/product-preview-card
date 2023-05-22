@@ -33,35 +33,34 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/UbaidRussell/product-preview-card)
-- Live Site URL: [Add live site URL here](https://ubaidrussell.com/product-preview-card/) Not live yet
+- Live Site URL: [Add live site URL here](https://ubaidrussell.com/product-preview-card/)
 
 ## My process
+I began with a just do it attitude, as we can see, it paid off. I surprised myself.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
 What have we learned?
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
+The challenge didn't require any javascript however I personally wanted to have some more fun and add some myself, I found the code below to be quite interesting.
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+let button = document.querySelector('button');
+
+function changeColor(event){
+    event.target.style.backgroundColor = "hsl(212, 21%, 14%)"
 }
+function returnColor(event){
+    event.target.style.backgroundColor = ''
+}
+
+button.addEventListener('mouseover', changeColor)
+button.addEventListener('mouseout', returnColor)
 ```
 
 ### Continued development
@@ -70,9 +69,7 @@ We're going to use this website to get better at making even more impressive web
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight) - This helped me with getting an idea of what I was going to do with handling the font weights
 
 ## Author
 

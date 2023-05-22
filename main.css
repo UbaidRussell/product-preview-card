@@ -39,15 +39,24 @@ body{
   }
   .product-description{
     font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    max-width: 350px;
   }
   .discounted-price-tag{
+    color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
+    display: inline-block;
   }
   .price-tag{
     font-family: 'Montserrat', sans-serif;
+    text-decoration-line: line-through;
+    display: inline-block;
+    margin-left: 30px;
   }
   button{
+    display: block;
     font-family: 'Montserrat', sans-serif;
+    
   }
   
   .attribution { font-size: 11px; text-align: center; }

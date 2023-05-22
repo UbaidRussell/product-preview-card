@@ -22,6 +22,24 @@ body{
     border-top-left-radius: 10px;
     border-bottom-left-radius:10px;
   }
+  .brand-type{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .product-name{
+    font-family: 'Fraunces', serif;
+  }
+  .product-description{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .discounted-price-tag{
+    font-family: 'Fraunces', serif;
+  }
+  .price-tag{
+    font-family: 'Montserrat', sans-serif;
+  }
+  button{
+    font-family: 'Montserrat', sans-serif;
+  }
   
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }

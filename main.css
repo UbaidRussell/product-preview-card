@@ -12,9 +12,13 @@ body{
   .second-container{
     width: 400px;
     height: 600px;
+    max-width: 400px;
+    max-height: 600px;
     background-color: white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: start;
+    padding-left:20px;
   }
   .image{
     width:400px;
@@ -24,9 +28,14 @@ body{
   }
   .brand-type{
     font-family: 'Montserrat', sans-serif;
+    margin:35px;
+    padding-top:10px;
   }
   .product-name{
     font-family: 'Fraunces', serif;
+    font-size:40px;
+    margin: 25px;
+    font-weight: 700;
   }
   .product-description{
     font-family: 'Montserrat', sans-serif;

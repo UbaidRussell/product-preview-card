@@ -2,7 +2,24 @@ body{
     background-color:hsl(30, 38%, 92%);
   }
   .container{
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    overflow: hidden;
   }
+  .second-container{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+  }
+  .image{
+    width:400px;
+    height:600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+  }
+  
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }

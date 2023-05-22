@@ -8,6 +8,7 @@ body{
     justify-content: center;
     margin-top: 50px;
     overflow: hidden;
+    margin-bottom: 10px;
   }
   .second-container{
     width: 400px;
@@ -54,9 +55,19 @@ body{
     margin-left: 30px;
   }
   button{
-    display: block;
     font-family: 'Montserrat', sans-serif;
-    
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 20px;
+    color:white;
+    vertical-align: baseline;
+    border-radius: 10px;
+  }
+  .shopping-cart{
+    width:20px
   }
   
   .attribution { font-size: 11px; text-align: center; }

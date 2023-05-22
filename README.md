@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/UbaidRussell/product-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) Not live yet
+- Live Site URL: [Add live site URL here](https://ubaidrussell.com/product-preview-card/) Not live yet
 
 ## My process
 

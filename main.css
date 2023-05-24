@@ -76,6 +76,7 @@ body{
   @media screen and (min-width: 100px) and (max-width: 600px) {
    .container{
     flex-wrap: wrap;
+    margin-top: 100px;
    }
    .second-container{
     padding-bottom: 30px;
